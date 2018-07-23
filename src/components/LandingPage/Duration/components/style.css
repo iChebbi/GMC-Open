@@ -1,0 +1,97 @@
+.project-header, .project-item {
+  display: flex;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.project-header .icon, .project-item .icon {
+  height: 80px;
+  object-fit: cover;
+  margin-right: 20px;
+  width: 80px;
+}
+
+.project-item .icon {
+  cursor: pointer;
+}
+
+.project-content {
+  margin: 40px 0;
+}
+
+.project-content .image {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.project-item .description {
+  color :#999
+}
+.project-header .keywords,.project-item .keywords {
+  display: flex;
+  width: 100%;
+}
+
+.project-item .keywords {
+    justify-content: flex-end;
+}
+
+.project-header .keyword,.project-item .keyword {
+  background-color: #ddd;
+  padding: 2px 10px;
+  border-radius: 3px;
+  margin: 0 5px;
+}
+.project-item .text-content {
+  cursor: pointer;
+  width: 100%
+}
+
+.project-header .text-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1
+}
+
+.project-header .title {
+  flex:1;
+}
+
+.project-header .url-btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-size: 1.5rem;
+  width: 180px;
+  margin: 2px 0;
+  height: 50%;
+  text-decoration: none;
+}
+
+.url-btn.project-page {
+  background-color:rgb(254, 66, 77);
+  color: white;
+}
+
+.url-btn i {
+  color: white;
+}
+
+.project-page a, .author-email a {
+  text-decoration: none;
+  color:white;
+  padding: 0 8px;
+}
+.url-btn.author-email {
+  background-color:grey;
+  color: white;
+}
+
+.project-modal-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  padding:10px 0  0 0;
+}

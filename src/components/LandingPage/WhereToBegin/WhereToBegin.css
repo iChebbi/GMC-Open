@@ -1,0 +1,117 @@
+.wheretobegin-container{
+  background-color: rgb(254, 66, 77);
+  color: white;
+  text-align: center;
+  padding: 20px 0 40px;
+}
+
+.wheretobegin-container .numbers {
+  display: flex;
+  justify-content: center;
+}
+.wheretobegin-container .numbers .number-card {
+  align-items: center;
+  border: 4px solid white;
+  /* border-radius: 5px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  margin: 20px;
+  transform: skewX(-20deg);
+  width: 300px;
+}
+.wheretobegin-container .numbers .number-card .number-title {
+  font-size: 20px;
+  font-weight: 700;
+  transform: skewX(20deg);
+}
+
+.wheretobegin-container .numbers .number-card .stat-number {
+  font-size: 70px;
+  font-weight: 900;
+  transform: skewX(20deg);
+}
+
+.wheretobegin-container h2{
+  background-color: white;
+
+  color: rgb(254, 66, 77);;
+  display: inline-block;
+  font-size: 2.8em;
+  margin-bottom: 35px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.wheretobegin-container .steps{
+  margin: 15px auto;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.steps .step{
+  text-align: center;
+  width: 27%;
+  margin: 12px auto;
+}
+
+.mt10 {
+  text-align: justify;
+
+}
+
+.wheretobegin-container .number{
+  color: white;
+  text-align: center;
+  width: 50px;
+  font-size: 2.5em;
+  font-family: "Montserrat", sans-serif;
+  padding: 0px 12px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 2px auto;
+}
+
+.wheretobegin-container h3{
+  font-size: 1.5em;
+  font-family: "Montserrat";
+  font-weight: 600;
+  margin-bottom: 25px;
+  margin-top: 27px;
+}
+
+.wheretobegin-container p{
+  font-size: 1.51em;
+  margin-bottom: 30px;
+  font-family: "Montserrat";
+}
+.wheretobegin-container a{
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.wheretobegin-container a:hover{
+  cursor: pointer;
+  color : black;
+}
+
+
+@media screen and (max-width: 768px){
+  .wheretobegin-container h2{
+    font-size: 2.5em;
+  }
+
+  .wheretobegin-container .steps{
+    flex-direction: column;
+  }
+
+  .steps .step{
+    width: 60%;
+  }
+
+}
