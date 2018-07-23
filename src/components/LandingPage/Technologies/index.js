@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import './content.css'
+import './Technologies.css'
 
-class Content extends Component {
+class Technologies extends Component {
   render() {
     return (
       <div className='content-container'>
@@ -9,7 +9,7 @@ class Content extends Component {
         <div className='content-text'>
           <div className='content-text-header'>
             <h2>
-              Projects and technologies Overview
+              State of the art technologies
            </h2>
           </div>
           <p>
@@ -60,4 +60,4 @@ class Content extends Component {
   }
 }
 
-export default Content
+export default Technologies

@@ -1,7 +1,7 @@
 import React from 'react'
-import './style.css'
+import './Navbar.css'
 
-class Header extends React.Component {
+class Navbar extends React.Component {
   render () {
     return (
       <div className='thousand-navbar'>
@@ -14,4 +14,4 @@ class Header extends React.Component {
   }
 }
 
-export default Header
+export default Navbar

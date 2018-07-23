@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './style.css'
 
-class Conditions extends Component {
+class Presentation extends Component {
   render() {
     return (
       <div className='conditions-container'>
@@ -18,4 +18,4 @@ class Conditions extends Component {
   }
 }
 
-export default Conditions
+export default Presentation

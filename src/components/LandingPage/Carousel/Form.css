@@ -1,21 +1,18 @@
 .form-component-container{
     display: flex;
-    /* background-image: url('first-background.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: calc(100vh - 76px);
     height: auto;
-    /* padding: 100px 0; */
     position:relative;
     color: rgb(255, 255, 255);
-    /* align-items: center; */
 }
 
 .slider-overlay {
   position: absolute;
   background-color: #00000078;
-  height: 600px;
+  height: 500px;
   z-index: 99999;
   width: 100vw;
   padding: 200px;
@@ -28,7 +25,7 @@
 }
 
 .carousel{
-  height: 700px;
+  height: 600px;
 }
 
 .carousel .prev, .carousel .next {

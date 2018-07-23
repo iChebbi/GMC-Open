@@ -1,7 +1,7 @@
 import React from 'react'
-import './Location.css'
+import './Projects.css'
 
-class Location extends React.Component {
+class Projects extends React.Component {
   render() {
     return (
       <div className='location-container'>
@@ -17,4 +17,4 @@ class Location extends React.Component {
   }
 }
 
-export default Location
+export default Projects

@@ -1,7 +1,7 @@
 import React from 'react'
-import './WhereToBegin.css'
+import './StatCounter.css'
 
-class WhereToBegin extends React.Component {
+class StatCounter extends React.Component {
   render() {
     return (
       <div className='wheretobegin-container'>
@@ -21,11 +21,11 @@ class WhereToBegin extends React.Component {
               <div className="stat-number">1337</div>
             </div>
           </div>
-          <a href='https://github.com/GoMyCodeAfrica' target='_blank'>Repo GoMyCode sur Github</a>
+          <a href='https://github.com/GoMyCodeAfrica' target='_blank' rel="noopener noreferrer">Repo GoMyCode sur Github</a>
         </div>
       </div>
     )
   }
 }
 
-export default WhereToBegin
+export default StatCounter

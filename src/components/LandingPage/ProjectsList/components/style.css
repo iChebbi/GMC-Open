@@ -80,6 +80,7 @@
 }
 
 .project-page a, .author-email a {
+  outline: none;
   text-decoration: none;
   color:white;
   padding: 0 8px;
