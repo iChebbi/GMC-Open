@@ -1,0 +1,1 @@
+export const adaAPI = 'https://ada.gomycode.tn/api/v1'

@@ -1,13 +1,20 @@
 import React from 'react'
+import ReactImageFallback from "react-image-fallback"
+import placeholder from './placeholder.png'
 import './style.css'
 
 export default ({ id, name, description, logo, keywords, openModal }) => {
   return (
     <div className="project-item" onClick={() => openModal(id)}>
-      <img className="icon" src={logo} alt={name} />
+      <ReactImageFallback
+        src={logo}
+        fallbackImage={placeholder}
+        alt={name}
+        className='icon'
+      />
       <div className="text-content">
         <h4 className="title">{name}</h4>
-        <div className="description">{description.slice(0,140)}</div>
+        <div className="description">{description.slice(0, 140)}</div>
         <div className="keywords">
           {JSON.parse(keywords).map((keyword, key) => <div key={key} className="keyword">{keyword.text}</div>)}
         </div>

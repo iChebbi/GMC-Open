@@ -1,15 +1,30 @@
-import React, { Component } from 'react';
-import LandingPage from './LandingPage'
-import './style.css'
+import React from 'react'
 
-class App extends Component {
+import Navbar from './Navbar'
+import CarouselContainer from './Carousel'
+import Presentation from './Presentation'
+import ProjectsList from './ProjectsList'
+import Projects from './Projects'
+import StatCounter from './StatCounter'
+import Technologies from './Technologies'
+import Footer from './Footer'
+
+import './landing.css'
+
+class LandingPage extends React.Component {
+
   render() {
-    return (
-      <div>
-      <LandingPage />
-      </div>
-    );
+    return (<div className='landing-page-container'>
+      <Navbar />
+      <CarouselContainer />
+      <Presentation />
+      <StatCounter />
+      <Projects />
+      <ProjectsList />
+      <Technologies />
+      <Footer />
+    </div>)
   }
 }
 
-export default App;
+export default LandingPage

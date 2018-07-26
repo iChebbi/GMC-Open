@@ -26,8 +26,7 @@
   font-weight: 700;
   transform: skewX(20deg);
 }
-
-.wheretobegin-container .numbers .number-card .stat-number {
+.stat-number {
   font-size: 70px;
   font-weight: 900;
   transform: skewX(20deg);
