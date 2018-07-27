@@ -1,16 +1,17 @@
-.conditions-container{
+.about-container{
     font-family: "Montserrat", sans-serif;
     text-align: justify;
+    margin-top: 40px;
     padding: 0 20% 100px 20%;
 }
 
-.conditions-container-intro-title{
+.about-container-intro-title{
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
 }
 
-.conditions-container-intro h2{
+.about-container-intro h2{
     background-color:rgb(254, 66, 77);
     font-weight: bold;
     color: rgb(255, 255, 255);
@@ -21,7 +22,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.conditions-container-intro  p{
+.about-container-intro  p{
   font-size: 1.5em;
 }
 
@@ -68,13 +69,13 @@
   .conditions-img{
     display: none;
   }
-  .conditions-container-left{
+  .about-container-left{
     width: 80%;
     max-width: 80%;
     margin: 45px auto;
   }
 
-  .conditions-container-intro-title{
+  .about-container-intro-title{
     margin-top: 0;
   }
 }
@@ -87,16 +88,16 @@
 }
 
 @media screen and (max-width: 768px){
-  .conditions-container-left{
+  .about-container-left{
     margin: 22px auto;
   }
-  .conditions-container-intro .conditions-container-intro-title{
+  .about-container-intro .about-container-intro-title{
     text-align: center;
   }
-  .conditions-container-intro h2{
+  .about-container-intro h2{
     font-size: 2.5em;
   }
-  .conditions-container-intro p{
+  .about-container-intro p{
     font-size: 1.2em;
   }
   .condition p{
@@ -105,7 +106,7 @@
 }
 
 @media screen and (max-width: 576px){
-  .conditions-container-left{
+  .about-container-left{
     width: 90%;
     max-width: 90%;
     margin: 18px auto;

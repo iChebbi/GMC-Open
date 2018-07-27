@@ -7,11 +7,10 @@ class Presentation extends Component {
       <div className='conditions-container'>
         <div className='conditions-container-intro'>
           <div className='conditions-container-intro-title'>
-            <h2>GoMyCode / Présentation</h2>
+            <h2>What is GoMyCode Open Source Community ?</h2>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo hic ipsam, consequatur numquam maiores doloribus quis, nisi eius corrupti porro sed consequuntur veniam. Quas perspiciatis amet cumque quasi aspernatur laborum?
-          </p>
+          <p> As a  project-centric Coding School, we enable our students to design, build and ship their own technology products through our programs.
+                    We decided to launch GoMyCode Open Source Community,  an online project hub, where we post all the technology products (Games, Apps and  Websites)  built by our students community in order for you to see, use, and contribute.</p>
         </div>
       </div>
     )

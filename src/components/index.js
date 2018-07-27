@@ -4,9 +4,9 @@ import Navbar from './Navbar'
 import CarouselContainer from './Carousel'
 import Presentation from './Presentation'
 import ProjectsList from './ProjectsList'
-import Projects from './Projects'
 import StatCounter from './StatCounter'
 import Technologies from './Technologies'
+import About from './About'
 import Footer from './Footer'
 
 import './landing.css'
@@ -19,9 +19,9 @@ class LandingPage extends React.Component {
       <CarouselContainer />
       <Presentation />
       <StatCounter />
-      <Projects />
       <ProjectsList />
       <Technologies />
+      <About />
       <Footer />
     </div>)
   }

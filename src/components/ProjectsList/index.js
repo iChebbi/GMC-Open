@@ -60,7 +60,7 @@ class ProjectsList extends React.Component {
 
     return (
       <div className='duration-container'>
-        <h3 className="projects-title">Latest projects</h3>
+        <h3 className="projects-title">Projects</h3>
         {products && products.length ? this.renderProjects(products) : <p>No Projects</p>}
         <Pagination
           activePage={pageNumber}

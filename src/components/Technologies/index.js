@@ -12,10 +12,9 @@ class Technologies extends Component {
               State of the art technologies
            </h2>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt debitis repudiandae, numquam libero magni, veritatis ratione quam hic assumenda ipsa ducimus! Perferendis quam dolorum a laborum illo dolorem corporis?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt debitis repudiandae, numquam libero magni, veritatis ratione quam hic assumenda ipsa ducimus! Perferendis quam dolorum a laborum illo dolorem corporis?
-          </p>
+          <p>  Through  the different track proposed at GoMyCode, Students can build their own project using cutting edge technologies that help keep up with the latest trends in the IT industry.
+          <br/>
+          We state, for example;  React (Web Dev Track), Unity (Game Track), TensorFlow (AI Track)</p>
           <div className="technologies">
             <svg viewBox="0 0 128 128">
               <path fill="#1572B6" d="M18.814 114.123l-10.054-112.771h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"></path><path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"></path><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163h-19.566v-13.831h34.681999999999995l-.332 3.711-3.4 38.114h-30.95v-13.831z"></path><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031h-13.882l1.937 21.717 28.331 7.863.063-.018v-14.39z"></path><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881h-13.876z"></path><path fill="#EBEBEB" d="M64.048 23.435v13.831000000000001h-33.407999999999994l-.277-3.108-.63-7.012-.331-3.711h34.646zM64.001 51.431v13.831000000000001h-15.209l-.277-3.108-.631-7.012-.33-3.711h16.447z"></path>
@@ -52,6 +51,9 @@ class Technologies extends Component {
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
               viewBox="0 0 48 48"
               fill="#000000"><g id="surface1"><path fill="#0277BD" d="M 24.046875 5 C 22.492188 5.003906 21.414063 5.140625 20.109375 5.367188 C 16.261719 6.035156 15.5625 7.445313 15.5625 10.035156 L 15.5625 14 L 24.5625 14 L 24.5625 16 L 10.871094 16 C 8.234375 16 5.925781 17.242188 5.195313 20.21875 C 4.371094 23.636719 4.332031 25.777344 5.195313 29.34375 C 5.851563 32.003906 7.292969 34 9.929688 34 L 13.5625 34 L 13.5625 28.894531 C 13.5625 25.929688 16.25 23 19.328125 23 L 26.5625 23 C 29.085938 23 31.5625 21.136719 31.5625 18.621094 L 31.5625 10.035156 C 31.5625 7.597656 29.804688 5.773438 27.34375 5.363281 C 27.40625 5.359375 25.589844 4.992188 24.046875 5 Z M 19.0625 9 C 19.882813 9 20.5625 9.675781 20.5625 10.503906 C 20.5625 11.335938 19.882813 12 19.0625 12 C 18.226563 12 17.5625 11.335938 17.5625 10.503906 C 17.5625 9.679688 18.226563 9 19.0625 9 Z "></path><path fill="#FFC107" d="M 23.078125 43 C 24.632813 42.996094 25.710938 42.859375 27.015625 42.632813 C 30.863281 41.964844 31.5625 40.554688 31.5625 37.964844 L 31.5625 34 L 22.5625 34 L 22.5625 32 L 36.257813 32 C 38.890625 32 41.199219 30.757813 41.929688 27.78125 C 42.757813 24.363281 42.792969 22.222656 41.929688 18.65625 C 41.273438 15.996094 39.832031 14 37.195313 14 L 33.5625 14 L 33.5625 19.105469 C 33.5625 22.070313 30.875 25 27.796875 25 L 20.5625 25 C 18.039063 25 15.5625 26.863281 15.5625 29.378906 L 15.5625 37.964844 C 15.5625 40.402344 17.320313 42.226563 19.78125 42.636719 C 19.71875 42.640625 21.535156 43.007813 23.078125 43 Z M 28.0625 39 C 27.242188 39 26.5625 38.324219 26.5625 37.496094 C 26.5625 36.664063 27.242188 36 28.0625 36 C 28.898438 36 29.5625 36.664063 29.5625 37.496094 C 29.5625 38.320313 28.898438 39 28.0625 39 Z "></path></g>
+            </svg>
+            <svg viewBox="0 0 580 610" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 184L324 0l241 137-80 139-161-92L81 322 0 184z" fill="#f6bd3a" /><path d="M243 323l81-47 80 47-80 46-81-45z" fill="#f6bd3a" /><path d="M243 507v-92l80-46 81-46v92l-80 46v92l-81 47v-93zm0-184l-81-46-81 45v-92L324 92v184l-81 47zm241-93v-46l81-47 1 92-81 47-1-46z" fill="#eb8c23" /><path d="M162 551V277l80-45 1 91 81 45v93l-81-43v182l-81-49zM40 298L0 274v-90l81 46v92l-41-24zm284-114V92l160 92 1 92-161-92z" fill="#e35a2b" />
             </svg>
           </div>
         </div>
