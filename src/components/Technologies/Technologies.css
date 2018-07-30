@@ -15,7 +15,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0 20%;
+  margin: 0 30%;
+  position: relative;
 }
 
 .technologies > svg {
@@ -36,7 +37,7 @@
   }
 
 .content-text{
-    width: 80%;
+    width: 60%;
     margin: auto;
     position: relative;
 }
