@@ -25,11 +25,16 @@
 }
 
 .carousel{
-  height: 600px;
+  height: 500px;
+  width: 100%;
 }
 
 .carousel .prev, .carousel .next {
   display: none;
+}
+
+.carousel-main {
+  height: 100% !important;
 }
 
 .carousel-main > div > img {
@@ -39,6 +44,10 @@
 
 .carousel .carousel-footer {
   background-color: unset;
+  display: none;
+}
+.carousel .carousel-footer .box {
+  display: none;
 }
 
 .description-container a {

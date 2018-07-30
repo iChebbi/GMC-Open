@@ -1,7 +1,8 @@
 .conditions-container{
-    font-family: "Montserrat", sans-serif;
-    text-align: justify;
-    padding: 0 20% 100px 20%;
+  margin-top: 40px;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  padding: 0 20% 100px 20%;
 }
 
 .conditions-container-intro-title{
